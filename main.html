@@ -1,0 +1,636 @@
+<html>
+    <title>Aaditya.Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--                        2ND FONT                      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!--                        3RD FONT                      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!---                       4TH FONT                      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!--                        5TH FONT                      -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mukta:wght@200;300;400;500;600;700;800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://fontawesome.com/icons/share-from-square?f=classic&s=solid" crossorigin="anonymous"></script>
+    <style>
+        .navigation-bar{
+            width: 100%;
+            height: 70px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+        .namediv{
+            width: 600px;
+            background-color: white;
+        }
+        .name1{
+            font-family:DM Serif Display;
+            font-size: 35px;
+            margin-left: 30px;
+            cursor: pointer;
+            text-align: left;
+        }
+        .name{
+            font-family:DM Serif Display;
+            margin-left: 35px;
+            cursor: pointer;
+            font-size: 25px;
+        }
+        .navlist{
+            width: 1000px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .h2H{
+            color: black;
+            margin-left: 50px;
+            font-family: Raleway;
+            font-size: 20px;
+            transition: ease 0.5s;
+            cursor: pointer;
+        }
+        .h2P{
+            color: black;
+            margin-left: 50px;
+            font-family: Raleway;
+            font-size: 20px;
+            transition: ease 0.5s;
+            cursor: pointer;
+        }
+        .h2A{
+            color: black;
+            margin-left: 50px;
+            font-family: Raleway;
+            font-size: 20px;
+            transition: ease 0.5s;
+            cursor: pointer;
+        }
+        .h2C{
+            color: black;
+            margin-left: 50px;
+            font-family: Raleway;
+            font-size: 20px;
+            transition: ease 0.5s;
+            cursor: pointer;
+        }
+        .h2P:hover{
+            color: blueviolet;
+        }
+        .h2A:hover{
+            color: rgba(157, 1, 1, 0.544);
+        }
+        .h2C:hover{
+            color: #0077B5;
+        }
+        .h2:hover{
+            font-size: 25px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .black{
+            width: 100%;
+            height: 800px;
+            background-color: black;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            animation: startup ease 2s reverse;
+        }
+        @keyframes startup {
+            0%{opacity: 100%;font-size: 150px;display: none;}
+            100%{opacity: 60%;font-size: 2px;}
+        }
+        .heroPoster{
+            width: 80%;
+            height: 500px;
+            background-color: white;
+            margin-left: 150px;
+            margin-top: 50px;
+            display: flex;
+        }
+        .leftside{
+            width: 800px;
+            height: 600px;
+        }
+        .greeting1{
+            font-family: DM Serif Display;
+            font-size: 40px;
+            color:black;
+        }
+        .info{
+            font-family: Raleway;
+            font-size: 13.5px;
+            color: grey;
+        }
+        .logos{
+            display: flex;
+            width: 100px;
+        }
+        .link{
+            cursor: pointer;
+        }
+        .link:hover{
+            fill: #0077B5;
+        }
+        .github{
+            cursor: pointer;
+        }
+        .github:hover{
+            fill: #2dba4e	;
+        }
+        .stacks{
+            width: 250px;
+            margin-left: 30px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .stkimg{
+            width: 25px;
+            height: 25px;
+            margin-left: 30px;
+            filter: grayscale(100%);
+            transition: ease 0.5s;
+            cursor: pointer;
+            animation: slideright 2s 2s;
+        }
+        .stkimg:hover{
+            filter: grayscale(0%);
+        }
+        @keyframes slideright {
+            0%{margin-left: 0px;}
+            100%{margin-left: 25ps;}
+        }
+        .rightside{
+            width: 240px;
+            height: 500px;
+        }
+        .profilepic1{
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 50px;
+        }
+        .profilepic{
+            width: 250px;
+            height: 250px;
+            margin-top: 5px;
+            border-radius: 50%;
+            object-fit: contain;
+        }
+        .arrow::after{
+            position: absolute;
+            top: 12px;
+            left: -10px;
+            transform: rotateZ(45deg);
+        }
+        @keyframes jumpInfinite {
+            0% {
+              margin-top: 0;
+              background-color: red;
+            }
+            50% {
+              margin-top: 20px;
+              background-color: yellow;
+            }
+            100% {
+              margin-top: 0;
+              background-color: blue;
+            }
+          }
+          .p1{
+            width: 1100px;
+            height: 400px;
+            margin-left: 200px;
+            margin-top: 80px;
+            display: flex;
+          }
+          .infol{
+            width: 750px;
+            height: 400px;
+          }
+          .infor{
+            width: 350px;
+            height: 400px;
+          }
+          .heading{
+            margin-left: 20px;
+            font-family: Oswald;
+          }
+          .des{
+            width: 600px;
+            text-align: left;
+            font-family: Raleway;
+            margin-left: 20px;
+            margin-top: 50px;
+          }
+          .action{
+            margin-left: 20px;
+            width: 500px;
+            height: 40px;
+            margin-top: 30px;
+            display: flex;
+          }
+          .demo{
+            width: 130px;
+            height: 40px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+          }
+          .aboutcontainer{
+            display: flex;
+            height: 500px;
+          }
+          .abc:hover{
+            color: crimson;
+            cursor:default;
+          }
+          .contact_page{
+            width: 1200px;
+            height: 600px;
+            margin-left: 120px;
+          }
+          .aboutgraphics{
+            background-image: url(image/contactus.jpg);
+            background-size: contain;
+          }
+          .inner{
+            backdrop-filter: blur(10px);
+            background-color:rgba(255, 255, 255, 0.281);
+            width:500px;height:300px;
+            border-radius:20px;
+            margin-left:50px;
+            margin-top:100px;
+            box-shadow:20px 20px 50px;
+            transition: all ease 0.5s;
+            cursor: pointer;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: Raleway;
+            font-size: 50px;
+          }
+          .aadi{
+            margin-left: 120px;
+            font-family:DM Serif Display;
+            font-size:35px;
+            color:rgb(136, 136, 136);
+            transition: all ease 0.5s;
+          }
+          .inner:hover{
+            margin-top: 75px;
+            transition: all ease 2s;
+            color: black;
+          }
+          .label{
+            width: 90px;
+            height: 17px;
+            background-color: blueviolet;
+            border-radius: 2px;
+            margin-left: 20px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+            color: gold;
+            font-family: Raleway;
+          }
+          .aabb{
+            font-family: Raleway;
+            display: block;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+          }
+          .aabb h3{
+            color:blueviolet;
+          }
+          .show{
+            visibility: hidden;
+          }
+          .footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .link1{
+            cursor: pointer;
+            fill: black;
+        }
+        .github1{
+            fill: black;
+        }
+    </style>
+    <head>
+        
+    </head>
+    <body>
+
+        <!------------------------------NAVIGATION BAR------------------------>
+        <div class="navigation-bar">
+
+            <div class="namediv">
+                <h1 class="name">Aaditya.dev</h1>
+            </div>
+
+            <div class="navlist">
+                <a href="#hm" style="text-decoration: none;color:black"><h2 class="h2H"> Home</h2></a>
+                <a href="#abtme" style="text-decoration: none;color:black"><h2 class="h2A">About Me</h2></a>
+                <a href="#portfolio" style="text-decoration: none;color:black"><h2 class="h2P">Projects</h2></a>
+                <a href="#cnt" style="text-decoration: none;color:black"><h2 class="h2C" >Contact</h2></a>
+            </div>
+        </div>
+        <!------------------------------NAVIGATION BAR------------------------>
+
+        <div class="black" id="black"><center><h2 style="font-family: Raleway;">Hello</h2></center></div>
+
+        <!------------------------------HERO CONTENT-------------------------->
+        <section id="hm">
+        <div class="heroPoster">
+
+            <div class="leftside">
+
+                <div style="width:500px;margin-top:30px">
+                    <p class="greeting1">Intermediate,Frontend and Backend Devloper.👋🏼</p>
+                    <p class="info">Hello, I'am Aaditya P.I am a beginner fontend and backend Devloper with</p>
+                    <p class="info">an experience of 3yrs of website building.👨🏻‍💻</p>
+                </div>
+
+                <div class="logos">
+                    <a href="https://www.linkedin.com/in/aditya-p-5bb91625a/">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 50 50" class="link">
+                        <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+                    </svg>
+                    </a>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="margin-left: 20px;" class="github">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </div>
+
+                <div class="techstack" style="display: flex;margin-top:130px">
+                    <div><h4 style="font-family: Raleway;">Tech Stack</h4></div>
+                    <div style="width: 2px;height:25px;background-color:grey;margin-top:17px;margin-left:15px"></div>
+                    <div class="stacks">
+                        <img src="image/python.png" class="stkimg">
+                        <img src="image/html-5.png" class="stkimg">
+                        <img src="image/javascript.png" class="stkimg">
+                        <img src="image/css-3.png" class="stkimg">
+                        <img src="image/flask_icon_132389.png" class="stkimg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="rightside">
+                <div class="profilepic1">
+                    <center>
+                    <img src="image/aaditya.jpeg" class="profilepic">
+                    </center>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <center>
+                <div style="width: 60px;height:5px;filter:opacity(60%);position: absolute;animation: ease jumpInfinite 1.5s infinite;background-color:black;margin-left:50%" class="arrow"></div>
+        </center>
+
+        <section id="abtme">
+        <div class="aboutme">
+            <div style="margin-left: 120px;margin-top:120px;"><h3 style="font-family: Raleway;color:crimson">About Me</h3></div>
+            <div class="aboutcontainer">
+                <div class="aboutinfo">
+                    <h3 class="aadi">Hii! I am Aaditya.</h3>
+                    <div style="display: flex;">
+                        <p style="margin-left: 120px;font-family:DM Serif Display;font-size:25;color:#EA4335" class="abc">Passionate,</p>
+                        <p style="font-family:DM Serif Display;font-size:25;color:#FBBC05" class="abc">Variable Thinking</p>
+                        <p style="font-family:DM Serif Display;font-size:25;color:#34A853	" class="abc">,Code Enthusiast.</p>
+                    </div>
+                    <div class="b" style="width:500px;margin-left:120px">
+                        <p style="font-family:DM Serif Display;font-size:15;color:rgb(136, 136, 136)" class="abc">I am very passionate about coding since I was vin 9th. I started Coding and taking intrest in coding during my 9th grade.
+                            I am an Intermediate Web Devloper. I have completed many Projects Such as I am very passionate about coding since I was vin 9th. I started Coding and taking intrest in coding during my 9th grade.
+                            I am an Intermediate Web Devloper. I have completed many Projects Such as I am very passionate about coding since I was vin 9th. I started Coding and taking intrest in coding during my 9th grade.
+                            I am an Intermediate Web Devloper. I have completed many Projects Such as 
+                        </p>
+                    </div>
+                </div>
+                <div class="aboutgraphics" style="width:600px;margin-left:120px;border-radius:20px">
+                    <div class="inner">
+                        <h1 style="mix-blend-mode:difference;">Devlop.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <!--                     This is portfolio Page                                       -->
+        <section id="portfolio">
+        <div class="Portfoliopage">
+            <div style="margin-left: 120px;margin-top:120px;"><h3 style="font-family: Raleway;color:blueviolet">PORTFOLIOS</h3></div>
+            <div class="portfolio_container">
+
+                <div class="p1">
+                    <div class="infol">
+                        <div class="heading"><h1>Compare Them</h1></div>
+                        <div class="des">
+                            <p>This is an website to compare any two things such as Car, Home, Bikes or watches. This is a FUN website for any age. The motive to create this website was to let students use it to compare the things present in there college.</p>
+                        </div>
+                        <div class="label">
+                            <h4>PORTFOLIO</h4>
+                        </div>
+                        <div class="action">
+                            
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="margin-top:5px" class="github">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="infor">
+                        <img src="image/project1.png" style="width: 400px;height:300px;object-fit:contain" alt="Image1">
+                    </div>
+                </div>
+
+
+                <div class="p1">
+                    <div class="infol">
+                        <div class="heading"><h1>Amazon Clone</h1></div>
+                        <div class="des">
+                            <p>This is the amazon clone website. This website was created in order to improve the web building skills and learn various designing techniques.</p>
+                        </div>
+                        <div class="label">
+                            <h4>PORTFOLIO</h4>
+                        </div>
+                        <div class="action">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" style="margin-top:5px" class="github">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="infor">
+                        <img src="image/amazonclone.png" style="width: 400px;height:300px;object-fit:contain;" alt="Image1">
+                    </div>
+                </div>
+            </div>
+            <div class="aabb">
+                <h3>More Projects are on the way.</h3>
+                <p><b style="color: grey;cursor:pointer" onclick="show()" id="btt">Show</b></p>
+                <p class="show" id="hint">Hint: Social Media Site</p>
+            </div>
+        </div>
+        </section>
+
+        <center><div style="width: 60%;height:2px;background-color:grey"></div></center>
+        
+
+        <section id="cnt">
+        <div style="margin-left: 120px;margin-top:120px;"><h3 style="font-family: Raleway;color:#0077B5">Contact Us</h3></div>
+        <div class="contact_page">
+            <form method="post" onsubmit="sendEmail()">
+
+                <div style="display: flex;" class="layer1">
+
+                    <div class="fnmae">
+                        <h4 style="font-family: Raleway;">First Name*</h4>
+                        <div style="display: flex;width:250px;height:40px;border-style:groove;border-radius:5px">
+                            <input type="text" placeholder="e.g.,John" style="width: 150;border-width:0" name="fnmae" id="fname" required>
+                            <img src="image/contact-card.png" alt="Img1" style="width: 30px;height:30px;object-fit:contain;margin-left:60px;margin-top:5px" required>
+                        </div>
+                    </div>
+
+                    <div class="lnmae" style="margin-left: 200px;">
+                        <h4 style="font-family: Raleway;">Last Name*</h4>
+                        <div style="display: flex;width:250px;height:40px;border-style:groove;border-radius:5px">
+                            <input type="text" placeholder="e.g.,Stark" style="width: 150;border-width:0" name="lname" id="lname" required>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="display: flex;" class="layer1">
+
+                    <div class="fnmae">
+                        <h4 style="font-family: Raleway;">Company Name</h4>
+                        <div style="display: flex;width:250px;height:40px;border-style:groove;border-radius:5px">
+                            <input type="text" placeholder="e.g.,Avengers" style="width: 150;border-width:0" name="company" id="company">
+                        </div>
+                    </div>
+
+                    <div class="lnmae" style="margin-left: 200px;">
+                        <h4 style="font-family: Raleway;">Phone no.*</h4>
+                        <div style="display: flex;width:250px;height:40px;border-style:groove;border-radius:5px">
+                            <input type="text" placeholder="e.g.,111 222 3334" style="width: 150;border-width:0" name="lname" id="phno" required>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div style="display: flex;" class="layer1">
+
+                    <div class="fnmae">
+                        <h4 style="font-family: Raleway;">Email Address*</h4>
+                        <div style="display: flex;width:250px;height:40px;border-style:groove;border-radius:5px">
+                            <input type="text" placeholder="e.g.,JohnStark@gmail.com" style="width: 150;border-width:0" name="email" id="email" required>
+                        </div>
+                    </div>
+
+                    <div class="fnmae" style="margin-left: 200px;">
+                        <h4 style="font-family: Raleway;">Email Address*</h4>
+                        <div style="display: flex;width:250px;height:40px;border-radius:5px">
+                            <select name="country" style="width: 250px;height:40px;border-radius:5px;border-style:groove" id="country">
+                                <option>India</option>
+                                <option>canada</option>
+                                <option>Mexico</option>
+                                <option>Dubai</option>
+                                <option>Austrelia</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <textarea type="text" placeholder="Describe your Query." id="data" required style="width: 700px;height:150px;border-style:groove;margin-top:50px;border-radius:10px"></textarea>
+                <br>
+                <button type="reset" style="margin-top: 40px;width:100px;height:40px;font-family:Raleway;background-color:black;color:white;border-radius:5px;cursor:pointer">Reset</button>
+                <button type="submit" style="margin-top: 40px;width:100px;height:40px;font-family:Raleway;background-color:black;color:white;border-radius:5px;cursor:pointer">Submit</button>
+            </form>
+        </div>
+        </section>
+        <center><div style="width: 60%;height:2px;background-color:grey;margin-top:50px"></div></center>
+        <br>
+        <center><p style="font-family: DM Serif Display;">Made By Devloper Aaditya.</p></center>
+        <br>
+        <div style="display: flex;justify-content:center;align-items:center">
+            <a href="#"><img src="image/instagram.png" style="width: 25px;height: 25px;object-fit:contain;margin-right:30px"></a>
+        <a href="#"><img src="image/hacker_rank.png" style="width: 25px;height: 25px;object-fit:contain;margin-right:30px"></a>
+        <a href="https://www.linkedin.com/in/aditya-p-5bb91625a/">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 50 50" class="link1">
+                <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
+            </svg>
+        </a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="margin-left: 20px;" class="github1">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        </div>
+        <br>
+        <div style="width: 100%;height:50px;background-color:black" class="footer"></div>
+
+    </body>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "aamp898989@gmail.com",
+                Password : "password",
+                To : 'aamp898989@gmail.com',
+                From : document.getElementById('email').value,
+                Subject : 'demo',
+                Body :  + 'Phone No: ' +document.getElementById('phno') + 'Description: '+ document.getElementById('data')
+            }).then(
+              message => alert(message)
+            );
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+
+            const animatedDiv = document.getElementById('black');
+
+            animatedDiv.addEventListener('animationend', function() {
+                // When the animation ends, set display to 'none'
+                animatedDiv.style.display = 'none';
+              });
+        });
+
+        function show(){
+            document.getElementById('hint').style.visibility = 'visible';
+            document.getElementById('hint').style.display = 'block';
+            document.getElementById('btt').style.display = 'none';
+        }
+    </script>
+</html>
